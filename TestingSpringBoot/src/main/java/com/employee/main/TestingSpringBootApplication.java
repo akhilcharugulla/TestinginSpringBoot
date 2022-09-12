@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableJpaRepositories("com.employee.Repository")
-@EntityScan("com.employee.Entity")
-@ComponentScan({"com.employee.Controller","com.employee.Repository","com.employee.Service"})
+//@EnableJpaRepositories("com.employee.main.repository")
+//@EntityScan("com.employee.main.entity")
+//@ComponentScan({"com.employee.main"})
 
 @SpringBootApplication
 public class TestingSpringBootApplication {
